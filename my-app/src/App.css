@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 40vmin;
+  pointer-events: bounding-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2f3238;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header4 {
+  padding-top: 5px;
+
+  width: 100%;
+  border-radius: 5px;
+  background-color: #2f3238;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header2 {
+  padding-top: 5px;
+  border-radius: 5px;
+  width: 420px;
+  margin-left: 7px;
+  align-self: flex-start;
+  margin-right: 0px;
+   background-color: #282c34;
+   height: 50px;
+   display: flex;
+   flex-direction: column;
+  align-content: center;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+ }
+.App-header3 {
+  padding-top: 5px;
+
+  border-radius: 5px;
+  margin-left: 55px;
+  margin-right: 0px;
+  width: 410px;
+  background-color: #56c1ff;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.required-field::before {
+  content: "*";
+  color: orangered;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*.background-dummy {*/
+/*  position: fixed;*/
+/*  top: 50px;*/
+/*  left: 170px;*/
+/*  height: 800px;*/
+/*  width: 800px;*/
+/*  opacity: 0.5;*/
+/*  background-color: grey;*/
+/*  z-index: 5;*/
+/*}*/
+.modal-wrapper {
+  position: fixed;
+  align-content: center;
+  top: 50px;
+  bottom: 100px;
+  left: 100px;
+  width: 1000px;
+  height: 510px;
+  z-index: 10;
+  background-color: white;
+  padding: 20px 35px 35px 35px;
+  color: #2f3238;
+  font-size: medium;
+  animation: fadein 1s;
+}
